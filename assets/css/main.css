@@ -3038,6 +3038,14 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+        
+        iframe {
+            max-width: 360px;
+        }
+        
+        img {
+            max-width: 360px;
+        }
 
 		/* List */
 
