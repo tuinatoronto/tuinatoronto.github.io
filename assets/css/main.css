@@ -2219,6 +2219,7 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: center;
 		}
 
 		table th {
@@ -2226,7 +2227,7 @@
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+		  text-align: center;
 		}
 
 		table thead {
@@ -2235,6 +2236,7 @@
 
 		table tfoot {
 			border-top: solid 4px #e4e4e4;
+			text-align: left;
 		}
 
 		table.alt {
@@ -3038,11 +3040,11 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-        
+
         iframe {
             max-width: 360px;
         }
-        
+
         img {
             max-width: 360px;
         }
