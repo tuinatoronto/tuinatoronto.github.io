@@ -2271,8 +2271,11 @@
 					font-weight: 700;
 					padding: 0 .6em 0.6em 0.6em;
 					text-align: center;
-					min-width: 100px;
+					min-width: 80px;
 				}
+				th:nth-child(1), td:nth-child(1) {
+						 min-width: 50px;
+					 }
 
 				table td {
 					padding: 0.6em 0.6em;
